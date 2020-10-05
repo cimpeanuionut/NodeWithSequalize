@@ -18,8 +18,8 @@ const sequelize = new Sequelize({
     username: 'sa',
     host: 'localhost',
     port: '55892',
-    password: '123123',
-    logging: true,
+    password: '123123',  
+    validateBulkLoadParameters: true  
 })
 
 sequelize
